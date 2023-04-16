@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "portifolio",
-    "slug": "portifolio",
+    "name": "myApp",
+    "slug": "myApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "https://images.alphacoders.com/109/1099923.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "https://i.pinimg.com/originals/3f/c7/ed/3fc7ed6289ece464ebf188cdc9e7e036.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,7 +19,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "https://images.alphacoders.com/109/1099923.jpg",
         "backgroundColor": "#ffffff"
       }
     },
