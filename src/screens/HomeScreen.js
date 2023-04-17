@@ -66,7 +66,6 @@ export default function HomeScreen() {
         <Button text={"Adicionar"} />
       </View>
       <ScrollView>
-        <Card />
         {Data.map((e) => (
           <Card
             url={e.image}
