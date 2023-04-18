@@ -1,9 +1,10 @@
 import React from "react";
 import { Text, View} from "react-native";
-import Button from "../components/Button";
-import Input from "../components/input";
+import { Button } from "../components/Button";
+import { Input } from "../components/input";
 
 export default function LoginScreen({ navigation }) {
+
   return (
     <View className="flex-1 justify-center items-center bg-black">
       <View className="h-auto justify-around items-start px-8 py-10 border-4 border-yellow-700 rounded-xl scale-110 bg-black shadow-2xl shadow-white">

@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View } from "react-native";
-import Input from "../components/input";
-import Button from "../components/Button";
+import { Input } from "../components/input";
+import { Button } from "../components/Button";
 
 export default function RegisterScreen({ navigation }) {
   return (

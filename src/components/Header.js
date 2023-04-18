@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 
 
 
-export default function Header() {
+export function Header() {
   const { goBack } = useNavigation()
   return (
     <View className="w-full m-4 border-b-2 border-slate-700 p-4 flex-row justify-between items-center bg-black">

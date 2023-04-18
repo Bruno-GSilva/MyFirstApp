@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Text, View, Pressable} from "react-native";
 
-export default function ModalInfo({ open, quantidade, status, launch}) {
+export function ModalInfo({ open, quantidade, status, launch}) {
   const [counter, setCounter] = useState(0);
 
   if (open) {
